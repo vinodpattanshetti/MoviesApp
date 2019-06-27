@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MoviesApplication</string>
+    <string name="txt_movies_list">Movies Application</string>
+    <string name="txt_previous">Previous</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_waiting_for_data">Please wait your data will be available soon</string>
+    <string name="txt_movies_list_with_web_view">Movies Detail With WebView</string>
+    <string name="txt_movies_list_with_view_pager">Movies Detail With ViewPager</string>
+</resources>
