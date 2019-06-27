@@ -183,7 +183,7 @@ class HomeScreenActivity : AppCompatActivity(), MoviesAdapter.IActivityCommunica
       val notification = NotificationCompat.Builder(it, CHANNEL_ID).setContentTitle(
         mOriginalMoviesList[position].name + ", " + mOriginalMoviesList[position].year
       ).setContentText(mOriginalMoviesList[position].genre).setSmallIcon(
-        R.mipmap.ic_launcher
+        R.drawable.movie_app_icon
       ).setContentIntent(pendingIntent)
       notification.setAutoCancel(true)
       notification.priority = NotificationCompat.PRIORITY_MAX
