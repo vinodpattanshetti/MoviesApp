@@ -53,7 +53,6 @@ class HomeScreenActivity : AppCompatActivity(), MoviesAdapter.IActivityCommunica
     mBinder = DataBindingUtil.setContentView(
       this, R.layout.activity_home_screen
     )
-    setToolbar()
     mBinder?.pbProgress?.visibility = View.VISIBLE
     mBinder?.includeWaitingForData?.clTopLayout?.showView()
     animateImageView()
